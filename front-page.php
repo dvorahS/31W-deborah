@@ -18,7 +18,7 @@ if (have_posts()):
 <?php 
         /*the_content(); //affiche le contenu*/
         /*the_excerpt(); //affiche le resumé ; c'est un echo*/
-        echo wp_trim_words(get_the_excerpt(), 4); /*deuxieme para nbre de mots, 3eme optionnel (lien); retour chaine de carractere*/
+        echo wp_trim_words(get_the_excerpt(), 4); /*deuxieme parametre nbre de mots, 3eme optionnel (lien); retour chaine de carractere*/
     endwhile;
 endif;
 ?>   

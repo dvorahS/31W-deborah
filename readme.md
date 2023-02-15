@@ -5,5 +5,5 @@
 - Installer WP
 - Créer un thème simple
 - Créer une structure Sass
-- Créer un minimum de 10 commits
+- Créer un minimum de 5 commits
 - Déployer le site local vers un serveur distant

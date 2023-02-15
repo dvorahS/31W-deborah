@@ -20,14 +20,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 h1 {
   font-size: clamp(1rem, 0.25rem + 2.4vw, 3.25rem); 
   /*generateur qui permet d'adapter automoatiquement à la taille de l'ecran*/
+  color: black;
 }
 
 h2 {
   font-size: clamp(0.875rem, 0.1667rem + 2.2667vw, 3rem);
   /*# sourceMappingURL=style.css.map */
+  color: black;
 }
 
 h3 {
   font-size: clamp(0.75rem, 0.1667rem + 2.2667vw, 2.875rem);
+  color: black;
 }
 

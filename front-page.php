@@ -1,9 +1,10 @@
 <?php
 /**
-    Modèle index.php représente le modèle par défaut du thème
+    Modèle page d'accueil front-page
 */
 get_header() ?>
 <main>
+    <code>front-page.php</code>
     <h3>index.php</h3>
 <?php 
 if (have_posts()):

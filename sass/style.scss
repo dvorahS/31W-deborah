@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 Theme Name: 31w Eddy Martin
 Theme URI: https://github.com/eddytuto
@@ -15,12 +14,11 @@ Text Domain: 31w-eddy-martin
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-/*----------- NORMALIZE --------------*/
-/*----------- BASE --------------*/
-h1 {
-  font-size: clamp(1rem, 0.25rem + 2.4vw, 3.25rem); /*generateur qui permet d'adapter automoatiquement à la taille de l'ecran*/
-}
 
-h2 {
-  font-size: clamp(0.875rem, 0.1667rem + 2.2667vw, 3rem);
-}/*# sourceMappingURL=style.css.map */
+
+/*----------- NORMALIZE --------------*/
+@import "normalize/normalize";
+
+
+/*----------- BASE --------------*/
+@import "base/heading";

@@ -8,4 +8,13 @@
     <?php wp_head(); ?>
 </head>
 <body>
+
+<header>
+    <h1><a href=" <?php bloginfo('url'); ?>"><a href=" <?php bloginfo('name'); ?>"> </h1>
+    <h2> <?php bloginfo('description'); ?></h2>
+  
+
+    
+
+</header>
     

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: 31w Eddy Martin
+Theme Name: 31w Deborah SImantob
 Theme URI: https://github.com/eddytuto
 Author: Eddy Martin
 Author URI: https://eddytuto.ca
@@ -18,9 +18,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*----------- NORMALIZE --------------*/
 /*----------- BASE --------------*/
 h1 {
-  font-size: clamp(1rem, 0.25rem + 2.4vw, 3.25rem); /*generateur qui permet d'adapter automoatiquement à la taille de l'ecran*/
+  font-size: clamp(1rem, 0.25rem + 2.4vw, 3.25rem); 
+  /*generateur qui permet d'adapter automoatiquement à la taille de l'ecran*/
 }
 
 h2 {
   font-size: clamp(0.875rem, 0.1667rem + 2.2667vw, 3rem);
-}/*# sourceMappingURL=style.css.map */
+  /*# sourceMappingURL=style.css.map */
+}
+
+h3 {
+  font-size: clamp(0.75rem, 0.1667rem + 2.2667vw, 2.875rem);
+}
+
